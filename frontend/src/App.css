@@ -1,0 +1,151 @@
+/* File: App.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.App {
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+h1{
+text-align: center;
+text-transform: uppercase;
+margin-bottom: 20px;
+}
+
+h2{
+  color: white;
+  font-style: italic;
+}
+h3{
+  display:inline-block;
+  color:green;
+  font-style: italic;
+}
+h4{
+  display:inline-block;
+  color:red;
+  font-style: italic;
+
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table th, table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+table th {
+  background-color: #f2f2f2;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+input {
+  margin: 5px 0;
+  padding: 8px;
+  width: calc(100% - 20px);
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+div {
+  margin-bottom: 20px;
+}
+
+.cont{
+  width: 100%;
+ height:600px;
+ margin:10px;
+}
+.img-fluid{
+  width: 100%;
+  height:100%;
+}
+.spl{
+  text-align: center;
+  justify-content: center;
+}
+.contain{
+  background-color: rgb(0, 2, 31);
+    background-size: cover; /* Ensures the image covers the entire div */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat;
+    color:white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+  border: solid 1px black;
+
+  width:90%;
+  
+  color:white;
+  padding:30px 30px 30px 40px;
+  margin:30px auto;
+
+
+}
+.tit{
+  text-align: center;
+  color:white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.end{
+  color:rgb(228, 224, 216);
+}
+.slider{
+
+  background-color: rgb(1, 3, 36);
+  background-size: cover; /* Ensures the image covers the entire div */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat;
+  color:white;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding-bottom:100px;
+}
+.apps{
+  color:white;
+  background-image: url('https://media.istockphoto.com/id/1413790486/photo/abstract-dark-blue-background-silk-satin-navy-blue-color-elegant-background.webp?a=1&b=1&s=612x612&w=0&k=20&c=j2PmxEHEwcd4rzKweYt1Ikhg4jJppUfS8gtwX0JVpYA='); /* Specify the path to your image */
+  background-size: cover; /* Ensures the image covers the entire div */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat;
+ 
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding-bottom:50px;
+}
+.tr{
+  color:black;
+ 
+}
+.tb{
+  padding-left: 10px;
+  border:solid 3px rgb(13, 60, 104);
+}
+.slider-tit{
+  color:white;
+}
+slider-h4{
+  display: inline;
+}
