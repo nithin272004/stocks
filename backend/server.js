@@ -7,7 +7,7 @@ require('dotenv').config();
 
 const app = express();
 const PORT = 5000;
-const MONGO_URI = `mongodb+srv://${process.env.MONGODB_USERNAME}:${process.env.MONGODB_PASSWORD}@cluster0.eyext.mongodb.net/`;
+const MONGO_URI = `mongodb+srv://{MONGODB_USERNAME}:{MONGODB_PASSWORD}@cluster0.eyext.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`;
 const API_KEY = process.env.FINNHUB_API_KEY; // Store Finnhub API key in your .env file
 
 // Middleware
